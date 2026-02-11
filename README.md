@@ -1,4 +1,8 @@
 # Homebrew Formulas for ReMemory
 
-See https://github.com/eljojo/rememory
+Install using
+```bash
+brew install eljojo/rememory/rememory
+```
 
+See https://github.com/eljojo/rememory
