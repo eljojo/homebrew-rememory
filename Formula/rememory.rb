@@ -1,28 +1,28 @@
 class Rememory < Formula
   desc "Encrypt secrets and split them among people you trust"
   homepage "https://github.com/eljojo/rememory"
-  version "0.0.14"
+  version "0.0.15"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/eljojo/rememory/releases/download/v0.0.14/rememory-darwin-arm64"
-      sha256 "880b990068d76856151dfb18607c8b1b6c7b8022f2c9345889686f4f8cfbc568"
+      url "https://github.com/eljojo/rememory/releases/download/v0.0.15/rememory-darwin-arm64"
+      sha256 "3018aff839f3d4a2ef31f8833351bf78a0de41599fafa6997cb1137f2a3dd431"
     end
     on_intel do
-      url "https://github.com/eljojo/rememory/releases/download/v0.0.14/rememory-darwin-amd64"
-      sha256 "4a09b8489e318d4a0a820041ab030c169d2f3ccda291c22eebd20fddc8e15b85"
+      url "https://github.com/eljojo/rememory/releases/download/v0.0.15/rememory-darwin-amd64"
+      sha256 "2a88729397c798b5701243e664bcba80b1892a9505bccfd36ba8c07c10dbe1c0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/eljojo/rememory/releases/download/v0.0.14/rememory-linux-arm64"
-      sha256 "a0faec6696e957eb401ec11ac60456e5dd3559a6b44f8fcd24f132e584124208"
+      url "https://github.com/eljojo/rememory/releases/download/v0.0.15/rememory-linux-arm64"
+      sha256 "6ef85c39ecbcb1278a592565909048f16d8a891322c7d04821bf4f1ebef55d90"
     end
     on_intel do
-      url "https://github.com/eljojo/rememory/releases/download/v0.0.14/rememory-linux-amd64"
-      sha256 "98f27ae638fb5a55a1034a9c233936b2bb85e4c2a4620040efa35e6bd9342759"
+      url "https://github.com/eljojo/rememory/releases/download/v0.0.15/rememory-linux-amd64"
+      sha256 "a5d91508cb6bf32a620d23d450cb734e2ce55302e276f3812aa01a29df2ec301"
     end
   end
 
