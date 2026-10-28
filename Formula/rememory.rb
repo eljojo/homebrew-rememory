@@ -1,28 +1,28 @@
 class Rememory < Formula
   desc "A digital safe with multiple keys, held by people you trust"
   homepage "https://github.com/eljojo/rememory"
-  version "0.0.22"
+  version "0.0.23"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/eljojo/rememory/releases/download/v0.0.22/rememory-darwin-arm64"
-      sha256 "4d8c45bbebbdef473e16bb705ff3b2179018c91dcb0df2c65bdef83ad63cb5d6"
+      url "https://github.com/eljojo/rememory/releases/download/v0.0.23/rememory-darwin-arm64"
+      sha256 "f17e72fd732fa77434940d02f506db2cb84700355325faa1ded0adee9e52bdd8"
     end
     on_intel do
-      url "https://github.com/eljojo/rememory/releases/download/v0.0.22/rememory-darwin-amd64"
-      sha256 "c1cef80072c871d557fcdc48f42b2cdda600024dff7b1ff20038b70cf23a6a57"
+      url "https://github.com/eljojo/rememory/releases/download/v0.0.23/rememory-darwin-amd64"
+      sha256 "dedd0b6f0684818f7c1f6315e565f895644a2e59d3aa1c5572b0496b29328714"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/eljojo/rememory/releases/download/v0.0.22/rememory-linux-arm64"
-      sha256 "219f8ded72a011bc71a6d35a77e95682be57bedf307dbdaf9e976b28043fcf67"
+      url "https://github.com/eljojo/rememory/releases/download/v0.0.23/rememory-linux-arm64"
+      sha256 "38fe314dcaad9709342ded169db557afc4b6ea495bfbdf01372dc8ca050ca0a7"
     end
     on_intel do
-      url "https://github.com/eljojo/rememory/releases/download/v0.0.22/rememory-linux-amd64"
-      sha256 "5248c0303ec59f0c935eee0cea78aafb6a954ff394e1ba3514d7e95bfe4de224"
+      url "https://github.com/eljojo/rememory/releases/download/v0.0.23/rememory-linux-amd64"
+      sha256 "8a5d50029225bb1752b5d829c6d4e75d4de5e3a50cc74475a86e2de0ace10cfe"
     end
   end
 
